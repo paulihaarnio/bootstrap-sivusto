@@ -1,8 +1,18 @@
 .accordion-item{
-    background-color:#595B5C ;
+    background-color:#1a1a1d ;
+    color: rgba(255, 255, 255, 0.767);
 }
-
 h2{
     padding-left: 2em;
     color: rgb(224, 224, 224);
+}
+#firstbutton{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 0.3em;
+}
+#secondbutton{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 0.3em;
 }

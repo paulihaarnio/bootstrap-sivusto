@@ -1,10 +1,10 @@
 body{
-    background-color:#595B5C ;
+    background-color:#1a1a1d;
     font-family: fantasy
 }
 
 #nav{
-    background:#404142 ;
+    background:#4e4e50 ;
 }
 h1{
     color: rgba(232, 234, 240, 0.726); 
@@ -12,20 +12,22 @@ h1{
 }
 h4{
     padding-left: 0.7em;
+    color: rgba(255, 255, 255, 0.705);
 }
 #text{
    border: 3px solid black; 
    border-radius: 5px;
    margin: 20px;
-   background-color:#969898 ;
+   background-color: #6f2232; 
    display: inline-block;
+   color: rgba(235, 230, 224, 0.815);
 }
 footer{
     display: inline-block;
     height: 2em;
     border-radius: 5px;
     margin: 2px;
-    background-color:#4d4d4d ;
+    background-color:#4e4e50 ;
     border: 3px solid rgb(0, 0, 0); 
     color: rgb(201, 201, 201);
     height: 4em;
@@ -40,14 +42,6 @@ footer a{
 a{
     text-decoration: none;
     color:rgb(201, 201, 201); 
-}
-button{
-    display: inline-block;
-    border: 3px solid black; 
-    border-radius: 5px;
-    margin: 20px;
-    background-color:#ccc0c0 ;
-    font-size: 5em;
 }
 #codesite{
     display: inline-block;
