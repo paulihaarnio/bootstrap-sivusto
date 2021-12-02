@@ -1,35 +1,36 @@
 let button=document.getElementById("nappi")
 let laskuri=0
-function add(){
+function lisää(){
     document.getElementById("laskuri").innerHTML=laskuri
     laskuri=laskuri+1
 }
-button.addEventListener("click", add)
+button.addEventListener("click", lisää)
 
 
 
+let secondButton=document.getElementById("toinenNappi")
+let thirdButton=document.getElementById("tyhjennysNappi")
+let tulostus=document.getElementById("tulostus")
+function tulosta(){
+    let vuosi=document.getElementById("vuosi").value
+    let etunimi=document.getElementById("etunimi").value
+    let sukunimi=document.getElementById("sukunimi").value
 
+    let today = new Date();
+    let year = today.getFullYear();
+    
+    let ikä=year-vuosi
 
-let people=[]
-
-function addperson(){
-    let fname=document.getElementById("name").value;
-    let age=document.getElementById("age").value;
-    let person={
-        firstname:fname,
-        personage:age
+    if(vuosi==""||etunimi==""||sukunimi==""){
+        alert("Täytä kaikki kentät")
     }
-    people.push(person);
+    else{
+        tulostus.innerText= "Hei "+etunimi+" "+sukunimi+", olet "+ikä+" vuotta vanha"
+    }
 }
-
-document.getElementById("add").addEventListener("click", addperson)
-
-document.getElementById("show").addEventListener("click", show)
-
-function show(){
-    people.forEach(person=>{
-        let li=document.createElement("li")
-        li.textContent="Henkilön nimi: "+person.firstname+", joka on "+person.personage+" vuotta vanha"
-        document.getElementById("printHere").appendChild(li)
-    })
+function tyhjennä(){
+    tulostus.innerHTML=""
+    
 }
+secondButton.addEventListener("click", tulosta)
+thirdButton.addEventListener("click", tyhjennä)

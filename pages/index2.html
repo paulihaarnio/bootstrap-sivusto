@@ -55,7 +55,11 @@
   <header>
     <h2>Esimerkkejä tietojenkäsittely tehtävistä</h2> 
   </header>
-    
+    <div>
+      <article>
+        Tällä sivulla on kaksi simppeliä ohjelmointi esimerkkejä. Tehtävät ovat samankaltaisia mitä teimme opintojen alussa. Ohjelmoimme alkuun Javascriptillä.
+      </article>
+    </div>
   <div class="accordion accordion-flush" id="accordionFlushExample">
     <div class="accordion-item">
       <h2 class="accordion-header" id="flush-headingOne">
@@ -77,22 +81,20 @@
     <div class="accordion-item">
       <h2 class="accordion-header" id="flush-headingTwo">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo" id="secondbutton">
-         Esimerkki tehtävä 2. 
+         Esimerkki tehtävä 2. Henkilötietojen tulostus
         </button>
       </h2>
       <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">Tässä esimerkissä lisätään henkilö taulukkoon. Henkilön tiedot ovat nimi ja ikä. 
-        <label for="">Nimi:</label>
-        <input type="text" id="name">
-        <label for="">Ikä:</label>
-        <input type="text" id="age">
-        <button id="add">Lisää taulukkoon</button>
-        <br>
-        <button id="show">Näytä henkilöt</button>
-        <ul id="printHere">
-        
-        </ul>
-      
+        <div class="accordion-body">Tässä esimerkissä meillä on kolme input-kenttää, joihin syötetään syntymävuosi, etu- ja sukunimi. Nappia painamalla tulostetaan sivulle kokonimi ja henkilön ikä. Jos kaikkiin kenttiin ei ole annettu tietoja, sivulle ei tulostu tietoja ja ilmoituslaatikko ilmestyy.<br> 
+         <label for="">Syntymävuosi:</label><input type="text" id="vuosi"> 
+         <label for="">Sukunimi:</label><input type="text" id="sukunimi"> 
+         <label for="">Etunimi:</label><input type="text" id="etunimi">
+         <button id="toinenNappi">Tulosta henkilön tiedot</button>
+         <button id="tyhjennysNappi">Tyhjennä henkilön tiedot</button>
+        </div>
+         <span id="tulostus"></span>
+         
+      <img src="../images/esimerkki 2.jpg" alt="" id="kuva2">
     </div>
     
     </div>

@@ -1,6 +1,6 @@
 .accordion-item{
     background-color:#1a1a1d ;
-    color: rgba(255, 255, 255, 0.767);
+    color: rgba(255, 255, 255, 0.952);
 }
 h2{
     padding-left: 2em;
@@ -16,3 +16,16 @@ h2{
     color: white;
     border-radius: 0.3em;
 }
+article{
+    color: white;
+    margin-left: 4rem;
+}
+#vuosi{
+    width: 3em;
+}
+#tulostus{
+    margin-left: 2em;
+}
+#kuva2{
+    height: 25em;
+}    
