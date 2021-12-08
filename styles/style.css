@@ -1,26 +1,30 @@
 body{
     background-color:#1a1a1d;
-    font-family: fantasy
+    font-family: fantasy;
+    color: white;
+    
 }
 
 #nav{
     background:#4e4e50 ;
 }
-h1{
-    color: rgba(232, 234, 240, 0.726); 
+h1, h2{
+   
     padding-left: 1em;
 }
 h4{
     padding-left: 0.7em;
-    color: rgba(255, 255, 255, 0.705);
+   
 }
-#text{
+article{
    border: 3px solid black; 
    border-radius: 5px;
    margin: 20px;
+   padding: 0.5rem;
    background-color: #6f2232; 
    display: inline-block;
-   color: rgba(235, 230, 224, 0.815);
+   height: auto;
+   display: inline-block;
 }
 footer{
     display: inline-block;
@@ -29,19 +33,18 @@ footer{
     margin: 2px;
     background-color:#4e4e50 ;
     border: 3px solid rgb(0, 0, 0); 
-    color: rgb(201, 201, 201);
     height: 4em;
 }
 footer a{
     text-decoration: none;
-    color:rgb(201, 201, 201); 
+   
 }
  footer a:hover{
     color: rgb(53, 53, 53);
 }
 a{
     text-decoration: none;
-    color:rgb(201, 201, 201); 
+    color: white;
 }
 #codesite{
     display: inline-block;
@@ -56,9 +59,7 @@ a{
     margin-left: 0.3em;
     
 }
-#codesite a:hover{
-    border: 4px solid rgb(255, 255, 255);
-}
+
 #infosite{
     display: inline-block;
     padding-top: 0.3em;
@@ -68,9 +69,6 @@ a{
     font-size: 5em;
     background-image:url("../images/computer-ge90562384_640.jpg");
     background-size: cover;
-    color: rgba(153, 166, 185, 0.979);
+    color: rgba(236, 233, 233, 0.897);
     margin-left: 0.3em;
-}
-#infosite a:hover{
-    border: 4px solid rgb(255, 255, 255);
 }

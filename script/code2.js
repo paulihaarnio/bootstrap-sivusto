@@ -30,7 +30,6 @@ function tulosta(){
 }
 function tyhjennä(){
     tulostus.innerHTML=""
-    
 }
 secondButton.addEventListener("click", tulosta)
 thirdButton.addEventListener("click", tyhjennä)
