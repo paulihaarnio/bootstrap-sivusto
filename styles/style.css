@@ -42,28 +42,22 @@ a{
     color: white;
 }
 #codesite{
-    display: inline-block;
-    padding-top: 0.3em;
-    padding-bottom: 0.25em;
-    border: 3px solid black; 
-    border-radius: 5px;
-    font-size: 6vw;
     background-image:url("../images/a010-markusspiske-mar19-1902-4988.jpg");
-    background-size: cover;
     color: rgba(226, 226, 226, 0.836);
-    margin-left: 0.3em;
-    
 }
 
 #infosite{
+    background-image:url("../images/computer-ge90562384_640.jpg");
+    color: #6f2231e3;   
+}
+.links a{
     display: inline-block;
     padding-top: 0.3em;
     padding-bottom: 0.25em;
     border: 3px solid rgb(0, 0, 0); 
     border-radius: 5px;
     font-size: 6vw;
-    background-image:url("../images/computer-ge90562384_640.jpg");
     background-size: cover;
-    color: #6f2231e3;
     margin-left: 0.3em;
+    justify-content: center;
 }
