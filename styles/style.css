@@ -9,12 +9,10 @@ body{
     background:#4e4e50 ;
 }
 h1, h2{
-   
     padding-left: 1em;
 }
 h4{
     padding-left: 0.7em;
-   
 }
 article{
    border: 3px solid black; 
@@ -22,12 +20,9 @@ article{
    margin: 20px;
    padding: 0.5rem;
    background-color: #6f2232; 
-   display: inline-block;
    height: auto;
-   display: inline-block;
 }
 footer{
-    display: inline-block;
     height: 2em;
     border-radius: 5px;
     margin: 2px;
@@ -52,7 +47,7 @@ a{
     padding-bottom: 0.25em;
     border: 3px solid black; 
     border-radius: 5px;
-    font-size: 5em;
+    font-size: 6vw;
     background-image:url("../images/a010-markusspiske-mar19-1902-4988.jpg");
     background-size: cover;
     color: rgba(226, 226, 226, 0.836);
@@ -66,7 +61,7 @@ a{
     padding-bottom: 0.25em;
     border: 3px solid rgb(0, 0, 0); 
     border-radius: 5px;
-    font-size: 5em;
+    font-size: 6vw;
     background-image:url("../images/computer-ge90562384_640.jpg");
     background-size: cover;
     color: #6f2231e3;
