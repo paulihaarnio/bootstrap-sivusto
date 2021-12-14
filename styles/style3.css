@@ -1,7 +1,20 @@
 #carouselExampleControls{
     margin-left: auto;
     margin-right: auto;
-    width: 50em;
+    width: 70vw;
     border: 2px solid black;
     border-radius: 3px;
+}
+p{
+font-size: 5vh;
+}
+
+
+@media screen and (max-width:750px) {
+    p{font-size: 4vh;
+}
+}
+@media screen and (max-width:530px) {
+    p{font-size: 2.6vh;
+}
 }
