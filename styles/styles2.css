@@ -30,7 +30,7 @@ article{
     height: 25vw;
 }    
 #kuva1{
-    width: 63vw
+    width: 50vw
 }
 @media screen and (max-width:650px) {
     #flush-collapseTwo{font-size: 0.8em

@@ -14,7 +14,7 @@ h1, h2{
 h4{
     padding-left: 0.7em;
 }
-article{
+#text{
    border: 3px solid black; 
    border-radius: 5px;
    margin: 20px;
