@@ -6,16 +6,7 @@ h2{
     padding-left: 2em;
     color: rgb(224, 224, 224);
 }
-#firstbutton{
-    background-color: rgb(0, 0, 0);
-    color: white;
-    border-radius: 0.3em;
-}
-#secondbutton{
-    background-color: rgb(0, 0, 0);
-    color: white;
-    border-radius: 0.3em;
-}
+
 article{
     color: white;
     margin-left: 4rem;

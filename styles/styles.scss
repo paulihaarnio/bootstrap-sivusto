@@ -1,17 +1,83 @@
+$articlebg:#6f2232;
+$white:rgb(243, 239, 239);
+$footerbg:#4e4e50;
+$black:rgb(0, 0, 0);
+
+body{
+    background-color:#1a1a1d;
+    color: $white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#nav{
+    background:#4e4e50 ;
+}
+h1, h2{
+    padding-left: 1em;
+}
+h4{
+    padding-left: 0.7em;
+}
+#text{
+   border: 3px solid $black; 
+   border-radius: 5px;
+   margin: 20px;
+   padding: 0.5rem;
+   background-color:$articlebg; 
+   height: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#codesite{
+    background-image:url("../images/a010-markusspiske-mar19-1902-4988.jpg");
+    color: rgba(226, 226, 226, 0.836);
+}
+
+#infosite{
+    background-image:url("../images/computer-ge90562384_640.jpg");
+    color: $articlebg;   
+}
+
+ @mixin links {
+    display: inline-block;
+    padding-top: 0.3em;
+    padding-bottom: 0.25em;
+    border: 3px solid $black; 
+    border-radius: 5px;
+    font-size: 6vw;
+    background-size: cover;
+    margin-left: 0.3em;
+    justify-content: center;
+}
+.links a{
+    @include links
+}
+
 footer{
     height: 2em;
     border-radius: 5px;
     margin: 2px;
-    background-color:#4e4e50 ;
-    border: 3px solid rgb(0, 0, 0); 
+    background-color:$footerbg;
+    border: 3px solid $black;
     height: 4em;
-    footer a{
+     a{
         text-decoration: none;
        
-        footer a:hover{
+        :hover{
             color: rgb(53, 53, 53);
         }
     }
 }
-
- 
+#carouselExampleControls{
+    background-color: $articlebg;
+}
+@mixin buttons {
+    background-color:$black;
+    color: $white;
+    border-radius: 0.3em;
+}
+#firstbutton, #secondbutton{
+    @include buttons
+}

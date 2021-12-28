@@ -1,0 +1,89 @@
+body {
+  background-color: #1a1a1d;
+  font-family: fantasy;
+  color: #f3efef;
+}
+
+#nav {
+  background: #4e4e50;
+}
+
+h1, h2 {
+  padding-left: 1em;
+}
+
+h4 {
+  padding-left: 0.7em;
+}
+
+#text {
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 0.5rem;
+  background-color: #6f2232;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#codesite {
+  background-image: url("../images/a010-markusspiske-mar19-1902-4988.jpg");
+  color: rgba(226, 226, 226, 0.836);
+}
+
+#infosite {
+  background-image: url("../images/computer-ge90562384_640.jpg");
+  color: #6f2232;
+}
+
+.links a {
+  display: inline-block;
+  padding-top: 0.3em;
+  padding-bottom: 0.25em;
+  border: 3px solid black;
+  border-radius: 5px;
+  font-size: 6vw;
+  background-size: cover;
+  margin-left: 0.3em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer {
+  height: 2em;
+  border-radius: 5px;
+  margin: 2px;
+  background-color: #4e4e50;
+  border: 3px solid black;
+  height: 4em;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a :hover {
+  color: #353535;
+}
+
+#carouselExampleControls {
+  background-color: #6f2232;
+}
+
+#firstbutton {
+  background-color: black;
+  color: white;
+  border-radius: 0.3em;
+}
+
+#secondbutton {
+  background-color: black;
+  color: white;
+  border-radius: 0.3em;
+}
+/*# sourceMappingURL=styles.css.map */
