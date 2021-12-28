@@ -1,7 +1,10 @@
+/* 
+Colors and sizes
+*/
 body {
   background-color: #1a1a1d;
-  font-family: fantasy;
   color: #f3efef;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #nav {
@@ -9,30 +12,34 @@ body {
 }
 
 h1, h2 {
-  padding-left: 1em;
+  padding-left: 1rem;
 }
 
 h4 {
-  padding-left: 0.7em;
+  padding-left: 0.7rem;
 }
 
 #text {
   border: 3px solid black;
-  border-radius: 5px;
-  margin: 20px;
+  border-radius: 0.45rem;
+  margin: 1.7rem;
   padding: 0.5rem;
   background-color: #6f2232;
   height: auto;
 }
 
+article {
+  color: #f3efef;
+}
+
 a {
   text-decoration: none;
-  color: white;
+  color: #f3efef;
 }
 
 #codesite {
   background-image: url("../images/a010-markusspiske-mar19-1902-4988.jpg");
-  color: rgba(226, 226, 226, 0.836);
+  color: #f3efef;
 }
 
 #infosite {
@@ -42,25 +49,25 @@ a {
 
 .links a {
   display: inline-block;
-  padding-top: 0.3em;
-  padding-bottom: 0.25em;
+  padding-top: 0.3rem;
+  padding-bottom: 0.25rem;
   border: 3px solid black;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   font-size: 6vw;
   background-size: cover;
-  margin-left: 0.3em;
+  margin-left: 0.3rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
 footer {
-  height: 2em;
-  border-radius: 5px;
+  height: 2rem;
+  border-radius: 0.5rem;
   margin: 2px;
   background-color: #4e4e50;
-  border: 3px solid black;
-  height: 4em;
+  border: 0.2rem solid black;
+  height: 4rem;
 }
 
 footer a {
@@ -68,22 +75,17 @@ footer a {
 }
 
 footer a :hover {
-  color: #353535;
+  color: black;
 }
 
 #carouselExampleControls {
   background-color: #6f2232;
+  border-radius: 0.4rem;
 }
 
-#firstbutton {
+#firstbutton, #secondbutton {
   background-color: black;
-  color: white;
-  border-radius: 0.3em;
-}
-
-#secondbutton {
-  background-color: black;
-  color: white;
-  border-radius: 0.3em;
+  color: #f3efef;
+  border-radius: 0.3rem;
 }
 /*# sourceMappingURL=styles.css.map */

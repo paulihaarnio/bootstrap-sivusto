@@ -1,38 +1,45 @@
+/* 
+Colors and sizes
+*/
 $articlebg:#6f2232;
 $white:rgb(243, 239, 239);
 $footerbg:#4e4e50;
 $black:rgb(0, 0, 0);
+$size:1rem;
 
 body{
     background-color:#1a1a1d;
     color: $white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #nav{
-    background:#4e4e50 ;
+    background:$footerbg ;
 }
 h1, h2{
-    padding-left: 1em;
+    padding-left: $size;
 }
 h4{
-    padding-left: 0.7em;
+    padding-left: $size - 0.3;
 }
 #text{
    border: 3px solid $black; 
-   border-radius: 5px;
-   margin: 20px;
-   padding: 0.5rem;
+   border-radius: $size *0.45;
+   margin: $size *1.7;
+   padding: $size - 0.5;
    background-color:$articlebg; 
    height: auto;
 }
+article{
+    color: $white;
+}
 a{
     text-decoration: none;
-    color: white;
+    color: $white;
 }
 #codesite{
     background-image:url("../images/a010-markusspiske-mar19-1902-4988.jpg");
-    color: rgba(226, 226, 226, 0.836);
+    color: $white;
 }
 
 #infosite{
@@ -42,13 +49,13 @@ a{
 
  @mixin links {
     display: inline-block;
-    padding-top: 0.3em;
-    padding-bottom: 0.25em;
+    padding-top: $size *0.3;
+    padding-bottom: $size *0.25;
     border: 3px solid $black; 
-    border-radius: 5px;
+    border-radius: $size *0.5;
     font-size: 6vw;
     background-size: cover;
-    margin-left: 0.3em;
+    margin-left: $size - 0.7;
     justify-content: center;
 }
 .links a{
@@ -56,27 +63,28 @@ a{
 }
 
 footer{
-    height: 2em;
-    border-radius: 5px;
+    height: $size *2;
+    border-radius: $size *0.5;
     margin: 2px;
     background-color:$footerbg;
-    border: 3px solid $black;
-    height: 4em;
+    border: $size *0.2 solid $black;
+    height: $size *4;
      a{
         text-decoration: none;
-       
+
         :hover{
-            color: rgb(53, 53, 53);
+            color: $black;
         }
     }
 }
 #carouselExampleControls{
     background-color: $articlebg;
+    border-radius: $size *0.4;
 }
 @mixin buttons {
     background-color:$black;
     color: $white;
-    border-radius: 0.3em;
+    border-radius: $size - 0.7;
 }
 #firstbutton, #secondbutton{
     @include buttons
