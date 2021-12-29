@@ -86,6 +86,6 @@ footer{
     color: $white;
     border-radius: $size - 0.7;
 }
-#firstbutton, #secondbutton{
+[class^=accordion-button]{
     @include buttons
 }

@@ -83,7 +83,7 @@ footer a :hover {
   border-radius: 0.4rem;
 }
 
-#firstbutton, #secondbutton {
+[class^=accordion-button] {
   background-color: black;
   color: #f3efef;
   border-radius: 0.3rem;
